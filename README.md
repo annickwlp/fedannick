@@ -38,7 +38,7 @@ https://www.pathe.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Home  
-<img src="images/homepathe" width="375px" alt="Home page">
+<img src="images/dummy-plaatje.jpg" width="375px" alt="Home page">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 No Time To Die
