@@ -38,11 +38,11 @@ https://www.pathe.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/homepathe.jpg" width="375px" alt="Home page">
+<img src="images/homepathe" width="375px" alt="Home page">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/filmpathe.jpg" width="375px" alt="Pagina over 1 film">
+<img src="images/filmpathe" width="375px" alt="Pagina over 1 film">
  
 </details>
 
