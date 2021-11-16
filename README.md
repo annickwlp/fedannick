@@ -34,14 +34,14 @@ Surface plane.
 <details>
 
 ### Je opdracht:
-https://www.pathe.nl/
+https://nl.gymshark.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Home  
 <img src="images/home.png" width="375px" alt="Home page">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-No Time To Die
+Dames leggings
 <img src="images/damesleggings.png" width="375px" alt="Pagina over 1 film">
  
 </details>
