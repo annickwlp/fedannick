@@ -38,11 +38,11 @@ https://www.pathe.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Home  
-<img src="images/homepathe.png" width="375px" alt="Home page">
+<img src="images/home.png" width="375px" alt="Home page">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 No Time To Die
-<img src="images/filmpathe.png" width="375px" alt="Pagina over 1 film">
+<img src="images/damesleggings.png" width="375px" alt="Pagina over 1 film">
  
 </details>
 
