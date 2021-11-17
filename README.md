@@ -53,10 +53,10 @@ Aparte contact pagina
 
 <details>
 
-### de hele pagina: 
+### De hele pagina: 
 <img src="images/breakdownschets1.png" width="375px" alt="breakdown van de hele pagina">
 
-### dynamisch deel (bijv menu): 
+### Contact pagina: 
 <img src="images/breakdownschets2.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
