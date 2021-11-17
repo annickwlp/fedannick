@@ -38,7 +38,7 @@ https://hetfeestvanomejan.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Home, zonder 'contact' en 'stuur ons een bericht'
-<img src="images/omejan.png" width="375px" alt="Home page">
+<img src="images/omejan.png" width="75px" alt="Home page">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Aparte contact pagina
