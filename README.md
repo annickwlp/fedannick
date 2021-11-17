@@ -34,15 +34,16 @@ Surface plane.
 <details>
 
 ### Je opdracht:
-https://nl.gymshark.com/
+https://hetfeestvanomejan.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Home  
-<img src="images/home.png" width="375px" alt="Home page">
+Home, zonder 'contact' en 'stuur ons een bericht'
+<img src="images/omejan.png" width="375px" alt="Home page">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Dames leggings
-<img src="images/damesleggings.png" width="375px" alt="Pagina over 1 film">
+Aparte contact pagina
+<img src="images/contact1.png" width="375px" alt="contact pagina">
+<img src="images/contact2.png" width="375px" alt="bericht pagina">
  
 </details>
 
