@@ -68,20 +68,18 @@ Aparte contact pagina
 ## Voortgang 1 (week 2)
 
 <details open>
-<summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb nu we id's gebruikt om de onderdelen apart te kunnen definieren. Ook lukt het me niet om images apart te stylen. Positioneren (absolute, relative, etc.) ging wel goed! 
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
 
 | student 1      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+|Hoe apart zetten| en dit             | en ik dit    | en dan ik dat    |
+| zonder id's    | dit als er tijd is | nog een punt | dit wil ik zeker |
+| naar mail app  | ...                | ...          | ...              |
 
 
 ### Verslag van meeting

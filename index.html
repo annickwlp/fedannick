@@ -6,16 +6,24 @@
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
+	<img id="banner" src="images/banner.png" alt="banner">
+
 	<nav>		
 		<ul>
-		<li><a href="idk">Foto's</a></li>
-		<li><a href="idk">Info</a></li>
-		<li><a href="idk">Verhuur</a></li>
-		<li><a href="Contact.html">Contact</a></li>
+		<li id="echtenav"><a href="idk">Foto's</a></li>
+		<li id="echtenav"><a href="idk">Info</a></li>
+		<li id="echtenav"><a href="idk">Verhuur</a></li>
+		<li id="echtenav"><a href="Contact.html">Contact</a></li>
 		<li><img src="images/instagram.png" alt="Instagram logo"></li>
 		<li><img src="images/facebook.png" alt="Facebook logo"></li>
 		</ul>
 	</nav>
+
+	<section id=binnenkomst>
+		<img src="images/logo.png" alt="Ome Jan logo">
+		<h1>HET FEEST VAN OME JAN!</h1>
+		<a href="Contact.html">KOM LANGS!</a>
+	</section>
 	
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
@@ -25,16 +33,10 @@
 
 	<main>
 
-	<section>
-		<img src="images/logo.png" alt="Ome Jan logo">
-		<h1>Het feest van ome jan!</h1>
-		<a href="Idk">Kom langs</a>
-	</section>
-
-	<section>
-		<h2>Foto's</h2>
+	<section id=fotos>
+		<h2>FOTO'S</h2>
 		<p>Proef de sfeer uit het gezelligste feestcafé</p>
-		<img src="images/streep.png" alt="Sectie">
+		<img id=streep1 src="images/streep.png" alt="Sectie">
 		<ul>
 			<li><img src="images/foto1.png" alt="De DJ booth"></li>
 			<li><img src="images/foto2.png" alt="Lekkere drankjes"></li>
@@ -43,11 +45,26 @@
 		</ul>
 	</section>
 
-	<section>
+	<section id=info>
 		<h2>Informatie</h2>
 		<p>Veilig en gastvrij uitgaan in Amsterdam. Het Feest van Ome Jan! houdt zich aan de regels, jij toch ook?</p>
 		<img src="images/streep.png" alt="Sectie">
-		<button onclick="idk()">Onze huisregels</button>
+		<article>
+			<details>
+				<summary>Onze huisregels</summary>
+				U dient ten alle tijden de instructie van het personeel op te volgen
+				Minimum leeftijd 18 jaar. In sommige gevallen kan bij toegangscontrole legitimatie gevraagd worden.
+				Bezoekers die zichtbaar onder invloed zijn van alcohol of drugs wordt de toegang geweigerd.
+				Het is niet toegestaan om drank en etenswaren mee naar binnen te nemen.
+				Het hebben van wapens, of voorwerpen die als wapen kunnen dienen, is ten strengste verboden.
+				Handelingen en uitlatingen die duiden op racisme en discriminatie zijn verboden.
+				Het gebruiken of verhandelen van drugs is ten strengste verboden. Bij handel of gebruik van harddrugs (pillen, etc.) worden de aangetroffen goederen in beslag genomen, volgt verwijdering en wordt de toegang ook in het vervolg ontzegd.
+				Weigeringsgronden ten aanzien van kleding. Onze gasten dienen een verzorgd uiterlijk te hebben bijvoorbeeld: geen sportkleding, geen kapotte kleding, geen onzedelijke kleding, geen petjes, geen vuile kleding en geen onverzorgd uiterlijk.
+				Bezoekers die zich bij het verlaten van de club luidruchtig gedragen en/of vernielingen aanbrengen, vuilnis achterlaten of wildplassen, wordt in het vervolg de toegang geweigerd.
+				Gasten die in het (recente) verleden problemen hebben veroorzaakt, kan de toegang worden ontzegd.
+				Wanneer het binnen te druk is of wanneer verwacht wordt dat veel houders van VIP-kaarten zich aanmelden, wordt voor deze mensen ruimte vrijgehouden. Dit kan als reden voor een weigering worden aangevoerd
+			</details>
+		</article>
 	</section>
 
 	<section>
@@ -61,7 +78,13 @@
 	<section>
 		<h2>Over ons</h2>
 		<p>Het Feest van Ome Jan! is een gezellig Hollands café. Samen met  onze grote familie maken wij er voor jou een feestje van! Het Feest van Ome Jan! is bedacht door vader en zoon, samen houden zij van feestjes en gezelligheid. Nu zal je denken: ‘vanwaar de naam Het Feest van Ome Jan!?’ Vader Jan trakteert graag, er is zelf er ook een liedje genaamd Ome Jan! In dit nummer, van Willeke Alberti,  is de bekende zin: ‘want wij gingen op vakantie van het geld van Ome Jan!’ te horen. Dit is een mooie verwijzing naar de gulle vader Jan. Hieruit is de naam ‘Het Feest van Ome Jan!’ ontstaan.</p>
-		<button onclick="idk()">Lees meer</button>
+		<article>
+			<details>
+				<summary>Over ons</summary>
+				Ome Jan en zijn zoon wilde elke dag wel een feestje. ‘Maar waar is elke dag feest?’ Vroeg Ome Jan. ‘In een kroeg!’ zei zijn zoon. Ze gingen opzoek en vonden de perfecte locatie op de Zieseniskade 25 H in Amsterdam, nabij het Leidseplein. 
+				Zin in een gezellig feest in het leukste feestcafé van Amsterdam. Kom gezellig langs en vier samen met Ome Jan en zijn zoon een ouderwets gezellig feestje
+			</details>
+		</article>
 	</section>
 
 	</main>
