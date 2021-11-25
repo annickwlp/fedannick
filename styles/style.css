@@ -3,3 +3,229 @@
   box-sizing:border-box;  
 }
 
+*, html {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+
+
+
+
+/* ALGEMEEN */
+h1{
+  font-family: whoody;
+}
+
+h2{
+  font-family: whoody;
+}
+
+p{
+  font-family: poppins;
+  font-weight: 400;
+}
+
+summary {
+  font-family: poppins;
+  font-weight: 400;
+}
+/* ALGEMEEN */
+
+
+
+
+
+/* HEAD */
+#head {
+  position: relative;
+}
+
+/* navigatie*/
+#echtenav a{
+  font-family: whoody;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+#echtenav img:first-of-type{
+  position: absolute;
+  width: 40px;
+  right: 35px;
+  top: 10px;
+}
+
+/* achtergrond */
+#banner {
+  position: absolute;
+  width: 103%;
+  top: -20px;
+  left: -20px;
+  padding:.5em
+}
+
+/* logo */
+#binnenkomst img{
+  position: absolute;
+  width: 22%;
+  top: 50px;
+  left: 130px;
+}
+
+/* titel */
+#binnenkomst h1{
+  position: absolute;
+  color: white;
+  font-size: 49px;
+  text-align: center;
+  top: 170px;
+  right: 20px;
+}
+
+/* btn */
+#binnenkomst a {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-family: poppins;
+  font-weight: 500;
+  background-color: #F27507;
+  border-radius: 40%;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  top: 320px;
+  right: 118px;
+}
+/* HEAD */
+
+
+
+
+
+/* FOTO'S */
+#fotos{
+  position: absolute;
+  color: white;
+  text-align: center;
+  top: 441px;
+  background-color: #1D1D1D;
+}
+
+#fotos h2{
+  position: relative;
+  font-size: 30px;
+  top: 20px;
+  left: 20px;
+  background-color: #1D1D1D;
+}
+
+#fotos p{
+  position: relative;
+  font-size: 15px;
+  top: 30px;
+  left: 20px;
+  background-color: #1D1D1D;
+}
+
+#fotos img{
+  position: absolute;
+  width: 105%;
+  top: 110px;
+  left: 12px;
+  border-radius: 10%;
+  background-color: #1D1D1D;
+  padding: 0 0 20px 0;
+}
+/* FOTO'S */
+
+
+
+
+
+/* INFO */
+#info{
+  position: absolute;
+  color: black;
+  text-align: center;
+  top: 817px;
+  background-color: #F27507;
+  padding: 20px;
+}
+/* INFO */
+
+
+
+
+
+/* VERHUUR */
+#verhuur{
+  position: absolute;
+  color: white;
+  background-color: #1D1D1D;
+  text-align: center;
+  top: 1002px;
+  padding: 20px;
+}
+
+#verhuur img{
+  position: absolute;
+  width: 90%;
+  top: 167px;
+  left: 9px;
+  border-radius: 10%;
+  background-color: #1D1D1D;
+  padding: 0 0 20px 0;
+}
+/* VERHUUR */
+
+
+
+
+
+/* OVER ONS */
+#overons{
+  position: absolute;
+  color: black;
+  text-align: center;
+  top: 1426px;
+  background-color: #F27507;
+  padding: 20px 20px 0 20px;
+}
+/* OVER ONS */
+
+
+
+
+
+/* FOOTER */
+#footernav a{
+  font-family: whoody;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  background-color: #1D1D1D;
+  top: 0px;
+}
+
+footer{
+  font-family: whoody;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  background-color: #1D1D1D;
+  top: 1874px;
+}
+
+footer img{
+  position: absolute;
+  width: 40px;
+  left: 20px;
+  bottom: 10px;
+}
+/* FOOTER */

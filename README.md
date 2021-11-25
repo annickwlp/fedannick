@@ -77,10 +77,12 @@ Ik heb nu we id's gebruikt om de onderdelen apart te kunnen definieren. Ook lukt
 
 | student 1      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-|Hoe apart zetten| en dit             | en ik dit    | en dan ik dat    |
+|img apart zetten| en dit             | en ik dit    | en dan ik dat    |
 | zonder id's    | dit als er tijd is | nog een punt | dit wil ik zeker |
 | naar mail app  | ...                | ...          | ...              |
+| uitklap boven  | ...                | ...          | ...              |
 
++ wat is dit? --> <link rel="icon" type="image/svg+xml" href="images/favicon.svg"> , dit staat onderaan header
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
