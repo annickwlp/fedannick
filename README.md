@@ -34,7 +34,7 @@ Surface plane.
 <details>
 
 ### Je opdracht:
-https://hetfeestvanomejan.nl/
+https://hetfeestvanomejan.nl/ en die van mij --> file:///Users/annickwlp/Documents/Hva/jaar%202/blok%202/FED/basiswebsite/index.html
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Home, zonder 'contact' en 'stuur ons een bericht'
@@ -112,7 +112,6 @@ Ik vond het lastig om alles van vorige week op t elossen maar het is me wel gelu
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
 
 | student 1             | student 2          | student 3    | student 4        |
 | ---                   | ---                | ---          | ---              |
@@ -123,12 +122,14 @@ samen met je groepje opstellen
 |ruimte p summary       |
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+Voor mij is het duidelijk hoe ik mijn problemen kan oplossen en waar ik nu aan kan gaan werken. Nu ik weer wat beter weet hoe ik moet coderen en mijn kennis naar boven heb gehaald en heb bijgeleerd vind ik het echt veel leuker dan aan het begin!
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Klik en groter de foto aan het einde doen, niet voor voldoende
+- Fotos naast elkaar -> Div met flex box ok overflow x scroll
+- Mail link ook einde -> https:// is voor website, link naar mail is a href mailto:e-mailadres 
+- Lees meer overlapping -> ipv top een margin boven en onder 1 em
+- Sections andere pagina class gebruiken als het niet anders kan, op de body een class zetten
+- JavaScript hamburger menu is goed
 
 </details>
 
