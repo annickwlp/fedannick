@@ -85,12 +85,17 @@ Ik heb nu we id's gebruikt om de onderdelen apart te kunnen definieren. Ook lukt
 + wat is dit? --> <link rel="icon" type="image/svg+xml" href="images/favicon.svg"> , dit staat onderaan header
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+De meeste porblemen waren dingen die ik van te voren al wist zoals dat ik eigenlijk geen id's mag gebruiken en dat ik nth of child kan gebruiken om verschillende dingen aan te roepen. Het probleem bij deze dingen was dat ik niet wist hoe ik het wel moest doen of dat het me niet lukte, mnaar na dit gesprek weet ik dat wel! Daarnaast nog een paar dingen die ik beter anders kan doen waarvan ik niet wist dat dat zo was, maar daar ga ik mee aan de slag.
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+-  Icoontjes boven los van nav
+-  Dingen in head niet, header maken in body
+-  Misschien teveel position absolute, ipv daarvan 
+-  Img position absolute daarom over elkaar
+
+-  Bij classes en id position absolute weghalen gebruik je weinig
+-  Background kleur geen positie absolute 
+-  Nth of tipe ipv id 
+-  Bijna alle id nth of type, behalve met specifiek voor de pagina , liever class dan id
 
 </details>
 
@@ -101,21 +106,21 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik vond het lastig om alles van vorige week op t elossen maar het is me wel gelukt (met wat hulp). Ik denk dat ik wel goed op weg ben.
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+| student 1             | student 2          | student 3    | student 4        |
+| ---                   | ---                | ---          | ---              |
+|tweede pagina aanroepen| en          | en ik dit    | en dan ik dat    |
+| naar mail app         | dit als er tijd is | nog een punt | dit wil ik zeker |
+|foto groot na klik     | ...                | ...          | ...              |
+|fotos afwisselen       |
+|ruimte p summary       |
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -188,12 +193,7 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
 
 </details>
 
