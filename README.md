@@ -82,8 +82,6 @@ Ik heb nu we id's gebruikt om de onderdelen apart te kunnen definieren. Ook lukt
 | naar mail app  | ...                | ...          | ...              |
 | uitklap boven  | ...                | ...          | ...              |
 
-+ wat is dit? --> <link rel="icon" type="image/svg+xml" href="images/favicon.svg"> , dit staat onderaan header
-
 ### Verslag van meeting
 De meeste porblemen waren dingen die ik van te voren al wist zoals dat ik eigenlijk geen id's mag gebruiken en dat ik nth of child kan gebruiken om verschillende dingen aan te roepen. Het probleem bij deze dingen was dat ik niet wist hoe ik het wel moest doen of dat het me niet lukte, mnaar na dit gesprek weet ik dat wel! Daarnaast nog een paar dingen die ik beter anders kan doen waarvan ik niet wist dat dat zo was, maar daar ga ik mee aan de slag.
 

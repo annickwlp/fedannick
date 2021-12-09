@@ -36,20 +36,13 @@
 			<h4>Adres:</h4>
 			<p>Zieseniskade 25 1017 RT Amsterdam</p>
 			<h4>Openingstijden:</h4>
-			<p>Maandag:</p>
-			<p>Gesloten</p>
-			<p>Dinsdag:</p>
-			<p>Gesloten</p>
-			<p>Woensdag:</p>
-			<p>Gesloten</p>
-			<p>Donderdag:</p>
-			<p>19:00 – 00:00</p>
-			<p>Vrijdag:</p>
-			<p>19:00 – 00:00</p>
-			<p>Zaterdag:</p>
-			<p>19:00 – 00:00</p>
-			<p>Zondag:</p>
-			<p>19:00 – 00:00</p>
+			<p><span class=span>Maandag:</span> <span></span class=span>Gesloten</span></p>
+			<p>Dinsdag: Gesloten</p>
+			<p>Woensdag: Gesloten</p>
+			<p>Donderdag: 19:00 – 00:00</p>
+			<p>Vrijdag: 19:00 – 00:00</p>
+			<p>Zaterdag: 19:00 – 00:00</p>
+			<p>Zondag: 19:00 – 00:00</p>
 			<p>Heb je een vraag of iets anders waar wij je mee kunnen helpen?</p>
 			<a href="mailto:Info@hetfeestvanomejan.nl">Stuur ons een bericht</a>
 			<iframe class="responsive-iframe" allowfullscreen="" aria-hidden="false" tabindex="0"
@@ -61,7 +54,7 @@
 			<h2>Stuur ons een bericht</h2>
 			<form action="/action_page.php">
 				<input type="text" id="fname" name="fname" value="Naam">
-				<input type="text" id="email" name="email" value="Email">
+				<input type="email" id="email_input" name="email" value="Email">
 				<input type="text" id="message" name="message" value="Bericht">
 				<input type="submit" value="Verstuur">
 			</form>
@@ -74,10 +67,10 @@
 		<h3>Navigeren</h3>
 
 		<ul>
+			<li><a href="index.html">Home</a></li>
 			<li><a href="idk">Foto's</a></li>
 			<li><a href="idk">Info</a></li>
 			<li><a href="idk">Verhuur</a></li>
-			<li><a href="Contact.html">Contact</a></li>
 		</ul>
 
 		<h3>Contact</h3>
@@ -85,15 +78,29 @@
 		<img src="images/mail.png" alt="Mail icoontje">
 		<a href="mailto:Info@hetfeestvanomejan.nl">Stuur ons een bericht</a>
 		<h3>Info</h3>
-		<h4>Adres:</h4>
-		<p>Zieseniskade 25 1017 RT Amsterdam</p>
-		<img src="images/footer1.png" alt="Locatie icoontje">
-		<h4>Openingstijden:</h4>
-		<p>Zie onze openingstijden.</p>
-		<img src="images/footer2.png" alt="Klok icoontje">
+		<div class=imgdiv>
+			<img src="images/footer1.png" alt="Locatie icoontje">
+			<div class=tekstdiv1>
+				<h4>Adres:</h4>
+			</div>
+			<div class= tekstdiv2>
+				<p>Zieseniskade 25 1017 RT Amsterdam</p>
+			</div>
+		</div>
+
+		<div class=imgdiv>
+			<img src="images/footer2.png" alt="Klok icoontje">
+			<div class=tekstdiv1>
+				<h4>Openingstijden:</h4>
+			</div>
+			<div class= tekstdiv2>
+				<p>Zie onze openingstijden.</p>
+			</div>
+		</div>
+		
 		<img src="images/logo.png" alt="Ome Jan logo">
-		<img src="images/instagram.png" alt="Instagram logo">
-		<img src="images/facebook.png" alt="Facebook logo">
+		<li><a href="https://www.instagram.com/accounts/login/"><img src="images/instagram.png" alt="Instagram logo"></a></li>
+		<li><a href="https://www.facebook.com/hetfeestvanomejan/?ref=page_internal"><img src="images/facebook.png" alt="Facebook logo"></li>
 	</footer>
 
 	<script src="scripts/script.js"></script>
