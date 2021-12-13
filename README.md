@@ -138,21 +138,44 @@ Voor mij is het duidelijk hoe ik mijn problemen kan oplossen en waar ik nu aan k
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+Screen reader:
+- In footer leest hij titel contact en heb je een vraag… niet voor , stuur ons een bericht wel
+- In footer hele info sectie leest hij niet voor
+- Hij leest bij HomePage automatisch het hamburger menu voor zonder dat die is geopend
+- HomePage leest p tekst niet voor en titels ook niet
+- Headings zijn logisch
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Andere beperkingen:
+- Voor spasmes/Parkinson is het goed, form en button nog groter maken maar die had ik nog niet opgemaakt 
+- Diabetes is gewoon helemaal prima 
+- Klein rondje zicht ook prima
+- P tekst is niet leesbaar met blur
+- Concentratie ook prima
+- Met 2 vingers aan elkaar ook prima
 
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Screenreader
+- In footer leest hij titel contact en heb je een vraag… niet voor , stuur ons een bericht wel
+- In footer hele info sectie leest hij niet voor
+- Hij leest bij HomePage automatisch het hamburger menu voor zonder dat die is geopend
+- HomePage leest p tekst niet voor en titels ook niet
+- Headings zijn logisch
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Dat het hamburger menu automatisch wordt voorgelezen is denk ik niet zo erg, deze is ook niet lang. Ik moet voor de rest nog even een keer testen om beter erachter te komen of het echt niet werkt of dat ik er niet mee om kon gaan, het is namelijk een beetje random wat wel en niet werkt.
+
+
+#### Spasmes/Parkinson
+Dit ging eigenlijk wel prima. Het enige probleem was met het formulier dat nog wat klein was, maar dit had ik nog niet opgemaakt.
+
+Dit heb ik opgelost door het formulier op te maken en de vakjes en button groter te maken.
+
+Eerst: <img src="images/spasmesslecht.jpg" width="375px" alt="spasmes waarbij de form slecht was">
+
+Nu: <img src="images/spasmesgoed.png" width="375px" alt="spasmes waarbij de form beter is">
 
 
 #### Titel volgende bevinding. 

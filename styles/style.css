@@ -17,9 +17,7 @@
 
 @font-face {
   font-family: "Whoody";
-  src: url("https://www.dafont.com/whoody.font");
-  font-family: "Poppins";
-  src: url("https://fonts.google.com/specimen/Poppins");
+  src: url("../assests/whoody/whoodyttf");
 }
 
 
@@ -102,7 +100,7 @@ nav button {
   height: 2.5em;
   
   
-  background-color: var(--background-primary);
+  background-color: #1D1D1D;
   border: none;
   border-radius: .25em;
   color: white;
@@ -224,16 +222,11 @@ section:nth-of-type(2) a:hover {
 }
 
 section:nth-of-type(2) a:active {
-  background-color: #c15d05;
+  background-color: #ed1592;
 }
 
 section:nth-of-type(2) a:focus {
   border: white;
-}
-
-/*section:nth-of-type(2) a:visited {
-  background-color: #a95104;
-  color: #cccccc;
 }
 /* HEADER */
 
@@ -348,7 +341,6 @@ section:nth-of-type(5) img{
   border-radius: 10%;
   position: relative;
   width: 90%;
-  margin-top: 5px;
 }
 
 .naastelkaar{
@@ -379,125 +371,6 @@ section:nth-of-type(6){
   padding: 70px 20px 40px 20px;
 }
 /* OVER ONS */
-
-
-
-
-
-/* FOOTER */
-/* navigatie */
-footer ul a{
-  color: white;
-  text-decoration: none;
-}
-
-/* algemeen */
-footer{
-  font-family: whoody;
-  color: white;
-  text-decoration: none;
-  background-color: #151515;
-  padding-bottom: 40px;
-  margin-top: -10px;
-}
-
-footer h3{
-  color: #F27507;
-  font-size: 25px;
-  margin-left: 20px;
-  margin-top: 20px;
-  padding-top: 20px;
-}
-
-footer p{
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-  padding-top: 20px;
-}
-
-footer h4{
-  color: white;
-  text-decoration: none;
-  margin-left: 60px;
-  margin-top: 30px;
-}
-
-/* navigeren */
-footer h3:first-of-type{
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-footer img{
-  width: 30px;
-  position: relative;
-  left: 20px;
-}
-
-/* contact */
-footer h3:nth-of-type(2){
-  margin-top: 10px;
-}
-
-footer p:first-of-type{
-  margin-bottom: -30px;
-}
-
-footer img:first-of-type{
-  margin-top: 20px;
-  padding-top: 20px;
-}
-
-/* contact (stuur ons een bericht) */
-footer a{
-  color: #F27507;
-  text-decoration: none;
-  font-family: poppins;
-  margin-left: 20px;
-}
-
-/* info */
-footer h3:nth-of-type(3){
-  position: relative;
-}
-
-/* info (icoontjes) */
-.imgdiv{
-  margin-top: -30px;
-}
-
-/* info (tekst) */
-.tekstdiv1{
-  margin-top: -70px;
-}
-
-.tekstdiv2{
-  margin-top: -20px;
-  margin-left: 40px;
-}
-
-/* logo */
-footer img:nth-of-type(2){
-  width: 100px;
-  margin-left: 90px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-/* info (insta & facebook icoon) */
-footer li{
-  list-style: none;
-}
-
-footer img:nth-of-type(3){
-  width: 30px;
-}
-
-footer img:nth-of-type(4){
-  width: 30px;
-}
-/* FOOTER */
 
 
 
@@ -550,9 +423,9 @@ p:nth-of-type(7), p:nth-of-type(8), p:nth-of-type(9){
   margin-bottom: 5px;
 }
 
-.pagina2 .span{
+/*.pagina2 .span{
   margin-left: 1fr;
-}
+}*/
 
 /* vraag */
 .pagina2 section:nth-of-type(2) p:nth-of-type(10){
@@ -565,7 +438,17 @@ p:nth-of-type(7), p:nth-of-type(8), p:nth-of-type(9){
   text-align: center;
   text-decoration: none;
   left: 38px;
-  margin-top: 220px;
+  margin-top: 260px;
+  font-size: 15px;
+}
+
+/* i-frame */
+.maps{
+	width: 300px;
+	height: 200px;
+  border: 0;
+  margin-top: 100px;
+  border-radius: 10px;
 }
 
 /* formulier */
@@ -578,10 +461,80 @@ p:nth-of-type(7), p:nth-of-type(8), p:nth-of-type(9){
   list-style: none;
 }
 
-.pagina2 form{
+input[type=text]{
+  font-family: Poppins;
+  color: grey;
+  width: 100%;
+  padding: 12px 20px 12px 12px;;
+  border: none;
+  margin-top: 10px;
+}
+
+.pagina2 section:nth-of-type(3) p{
   display: flex;
-  flex-direction: column;
-  align-content: space-between;
+  top: 10px;
+}
+
+input[type=text]:hover{
+  color: black;
+  background-color: #404040;
+}
+
+input[type=text]:active {
+  background-color: #333333;
+  color: white;
+}
+
+input[type=text]:focus {
+  border: white;
+}
+
+input[type=email]{
+  font-family: Poppins;
+  color: grey;
+  width: 100%;
+  padding: 12px 20px 12px 12px;;
+  border: none;
+  border: none;
+  margin-top: 10px;
+}
+
+input[type=email]:hover{
+  color: black;
+  background-color: #404040;
+}
+
+input[type=email]:active {
+  background-color: #333333;
+  color: white;
+}
+
+input[type=email]:focus {
+  border: white;
+}
+
+input[type=submit]{
+  font-family: whoody;
+  background-color: #1D1D1D;
+  color: white;
+  width: 100%;
+  padding: 12px 20px 12px 12px;;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+input[type=submit]:hover{
+  background-color: #404040;
+}
+
+input[type=submit]:active {
+  background-color: #333333;
+  color: #F27507;
+}
+
+input[type=submit]:focus {
+  border: white;
 }
 
 .pagina2 section:nth-of-type(3) input:invalid {
@@ -589,10 +542,133 @@ p:nth-of-type(7), p:nth-of-type(8), p:nth-of-type(9){
   border-style:10px solid rgb(230, 86, 86);
 }
 
-.pagina2 section:nth-of-type(3) input:nth-of-type(4):focus{
-  color: black;
+
+
+
+
+/********************/
+/******FOOTER*****/
+/********************/
+
+/* navigatie */
+footer ul a{
+  color: white;
+  text-decoration: none;
 }
 
-/*section:nth-of-type(3) h2{
-  font-size: 30px
+/* algemeen */
+footer{
+  font-family: whoody;
+  color: white;
+  text-decoration: none;
+  background-color: #151515;
+  padding-bottom: 40px;
+  margin-top: -10px;
 }
+
+footer h3{
+  color: #F27507;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+footer h4{
+  color: white;
+  text-decoration: none;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+footer p{
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+/* (meteen ook voor contact (stuur ons een bericht)) */
+footer a{
+  color: #F27507;
+  text-decoration: none;
+  font-family: poppins;
+  margin-left: 20px;
+}
+
+footer img{
+  width: 30px;
+  position: relative;
+  left: 20px;
+}
+
+/* navigeren */
+footer h3:first-of-type{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* contact */
+footer h3:nth-of-type(2){
+  margin-top: 10px;
+}
+
+footer p:first-of-type{
+  margin-bottom: -30px;
+}
+
+footer img:first-of-type{
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+/* info */
+footer h3:nth-of-type(3){
+  position: relative;
+}
+
+/* info (icoontjes) */
+.imgdiv1{
+  margin-top: -20px;
+}
+
+.imgdiv2{
+  margin-top: -30px;
+}
+
+/* info (tekst) */
+.tekstdiv1{
+  margin-top: -90px;
+}
+
+.tekstdiv1punt2{
+  margin-top: -70px;
+}
+
+.tekstdiv2{
+  margin-top: -20px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+/* logo */
+footer img:nth-of-type(2){
+  width: 100px;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+/* info (insta & facebook icoon) */
+footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+footer ul:nth-of-type(2) img{
+  width: 40px;
+}
+/* FOOTER */
