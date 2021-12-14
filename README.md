@@ -259,9 +259,10 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. Mijn eerder gemaakt programmeer werk (voor dingen zoals een form en een ifram ter inspiratie hoe het ookalweer moest).
 2. Voor hamburger menu de oefeningen van de HvA van Sanne 't Hooft.
-3. <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"> voor het geod gebruik maken van de flexbox.
-4. Alle oefingen van de HvA die Sanne 't Hooft heeft gemaakt voor voorbereiding en hulp bij het programmeren.
-5. Ook voor vorms: <a href="https://www.w3schools.com/html/html_forms.asp"> & <a href="https://www.w3schools.com/css/css_form.asp">
-6. Content van de website: <a href="https://hetfeestvanomejan.nl/">
+3. Alle oefingen van de HvA die Sanne 't Hooft heeft gemaakt voor voorbereiding en hulp bij het programmeren.
+4. <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"> voor het goed gebruik maken van de flexbox.
+5. Ook voor hulp bij vorms <a href="https://www.w3schools.com/html/html_forms.asp">
+6. Ook voor hulp bij vorms <a href="https://www.w3schools.com/css/css_form.asp">
+7. Content van de website: <a href="https://hetfeestvanomejan.nl/">
 
 </details>
