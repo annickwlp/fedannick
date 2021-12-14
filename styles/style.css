@@ -67,22 +67,17 @@ nav a{
   text-decoration: none;
 }
 
-nav a:hover {
-  background-color: var(--oranje1);
+nav a:hover, nav a:active, nav a:focus{
   color: black;
   padding: 5px;
+}
+
+nav a:hover, nav a:focus {
+  background-color: var(--oranje1);
 }
 
 nav a:active {
   background-color: white;
-  color: black;
-  padding: 5px;
-}
-
-nav a:focus {
-  background-color: var(--oranje1);
-  color: black;
-  padding: 5px;
 }
 
 /* hamburger menu */
@@ -180,7 +175,8 @@ section:nth-of-type(2) {
   font-size: 49px;
   text-align: center;
   top: 170px;
-  right: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 /* btn */
@@ -194,7 +190,6 @@ section:nth-of-type(2) {
   padding: 10px 40px 10px 40px;
   text-decoration: none;
   top: 320px;
-  left: 80px;
 }
 
 .pagina1 section:nth-of-type(2) a:hover {
@@ -218,7 +213,7 @@ section:nth-of-type(2) {
 .pagina1 section:nth-of-type(3){
   position: relative;
   color: white;
-  /* text-align: center;*/
+  text-align: center;
   background-color: var(--donker);
   padding: 2em;
   list-style: none;
@@ -418,7 +413,8 @@ p:nth-of-type(7), p:nth-of-type(8), p:nth-of-type(9){
   text-align: center;
   text-decoration: none;
   color: white;
-  margin-left: 10px;
+  display: flex;
+  justify-content: center;
   font-size: 15px;
   background-color: var(--oranje1);
   border-radius: 40px;
@@ -432,6 +428,8 @@ p:nth-of-type(7), p:nth-of-type(8), p:nth-of-type(9){
   border: 0;
   margin-top: 40px;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 /* formulier */
@@ -445,6 +443,8 @@ p:nth-of-type(7), p:nth-of-type(8), p:nth-of-type(9){
 
 .pagina2 section:nth-of-type(3) h2{
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .pagina2 section:nth-of-type(3) p{
@@ -492,7 +492,7 @@ input[type=text]:hover, input[type=text]:active, input[type=text]:focus{
 }
 
 input[type=text]:hover{
-  background-color: var(d--donker2);
+  background-color: var(--donker2);
   transform: 1s;
 }
 
@@ -540,7 +540,6 @@ input[type=submit]:hover{
 
 input[type=submit]:active {
   background-color: var(--donker3);
-  background-color: var(--oranje1);
 }
 
 input[type=submit]:focus {
@@ -565,7 +564,6 @@ input[type=submit]:focus {
 
 .stadopties select:active {
   background-color: var(--donker3);
-  background-color: var(--oranje1);
 }
 
 .stadopties select:focus {
@@ -699,10 +697,13 @@ footer ul{
   list-style: none;
   display: flex;
   justify-content: center;
-  margin-right: 60px;
 }
 
 footer ul:nth-of-type(2) img{
   width: 40px;
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 /* FOOTER */
