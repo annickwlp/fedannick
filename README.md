@@ -263,6 +263,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 4. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ voor het goed gebruik maken van de flexbox.
 5. Ook voor hulp bij vorms https://www.w3schools.com/html/html_forms.asp
 6. Ook voor hulp bij vorms https://www.w3schools.com/css/css_form.asp
-7. Content van de website <a href="https://hetfeestvanomejan.nl/">
+7. Content van de website https://hetfeestvanomejan.nl/
 
 </details>
