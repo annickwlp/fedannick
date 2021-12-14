@@ -241,14 +241,28 @@ samen met je groepje opstellen
 ## Eindgesprek (week 5)
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Wat ik lastig vond was het scherm goed krijgen op alle mobiele formaten. Eerst ahd ik hier een rand, dan weer daardoor, etc. Dat is met uiteindelijk wel gelukt om goed te doen. 
+Wat me niet is gelukt is het juist neerzetten van de image van de header. Nu staat het in de html als image en heb ik het gestyled als achtergrond, maar nu is het content (door hoe ik het in html heb gezet) terwijl het geen content zou moeten zijn. Ik heb geprobeerd dit nog goed te doen maar door tijdsgebrek is dit me helaas niet gelukt, ik was wel een eind gekomen.
+Ook wilde ik nog lasers erin doen en hier had ik al helemaal een checkbox en alles wat daarbij hoort voor gemaakt, maar ook voor dit had ik niet genoeg tijd om het af te maken.
+
+Wat wel goed ging is het leren van veel nieuwe dingen en bepaalde dingen weer omhoog halen zoals forms en iframes. Het neerzetten en stylen van deze 2 dingen ging heel goed. 
+Wat verder nog goed ging is de stylen overall. Technisch gezien is het zeker niet allemaal perfect, maar als je kijkt naar hoe het eruit ziet is dat niet perse te merken. Dat is vooral wat goed is gegaan. Om de styling beter te maken moet ik in css margin: 0 auto doen, maar dit had ik dan eerder moeten weten en uitvoeren.
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+homepage:
+<img src="images/home1.png" width="375px" alt="homepage">
+
+met uitgeklapte tekst:
+<img src="images/home2.png" width="375px" alt="homepage met uitgeklapte tekst">
+
+contact pagina:
+<img src="images/contact1.1.png" width="375px" alt="contact pagina">
+
+met uitgeklapte tekst:
+<img src="images/contact2.2.png" width="375px" alt="contactpagina met error state">
 
 </details>
 
@@ -261,8 +275,6 @@ hier screenshot(s) van je eindresultaat
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
 1. Mijn eerder gemaakt programmeer werk (voor dingen zoals een form en een ifram ter inspiratie hoe het ookalweer moest).
 2. Voor hamburger menu de oefeningen van de HvA van Sanne 't Hooft.
 3. Alle oefingen van de HvA die Sanne 't Hooft heeft gemaakt voor voorbereiding en hulp bij het programmeren.
@@ -270,5 +282,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 5. Ook voor hulp bij vorms https://www.w3schools.com/html/html_forms.asp
 6. Ook voor hulp bij vorms https://www.w3schools.com/css/css_form.asp
 7. Content van de website https://hetfeestvanomejan.nl/
+8. https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex?retiredLocale=nl voor het doen alsof de social media icons in de header getabd kunnen worden.
 
 </details>

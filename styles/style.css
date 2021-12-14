@@ -74,6 +74,7 @@ nav a:hover, nav a:active, nav a:focus{
 
 nav a:hover, nav a:focus {
   background-color: var(--oranje1);
+  transition: .5s;
 }
 
 nav a:active {
@@ -150,7 +151,7 @@ section img:nth-of-type(2){
 }
 
 .pagina1 section:nth-of-type(1),
-section:nth-of-type(2) {
+.pagina1 section:nth-of-type(2) {
   position: absolute;
   top: 0;
   left: 0;
@@ -163,9 +164,6 @@ section:nth-of-type(2) {
   width: 22%;
   top: 50px;
   left: 130px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 50px;
 }
 
 /* titel */
@@ -190,10 +188,12 @@ section:nth-of-type(2) {
   padding: 10px 40px 10px 40px;
   text-decoration: none;
   top: 320px;
+  margin-left: 60px;
 }
 
 .pagina1 section:nth-of-type(2) a:hover {
   background-color: var(--oranje2);
+  transition: .5s;
 }
 
 .pagina1 section:nth-of-type(2) a:active {
@@ -201,7 +201,10 @@ section:nth-of-type(2) {
 }
 
 .pagina1 section:nth-of-type(2) a:focus {
-  outline-offset: 10em red;
+  outline-offset: .5em;
+  outline-color: white;
+  outline-style: solid;
+  outline-width: 2px;
 }
 /* HEADER */
 
@@ -287,6 +290,7 @@ section:nth-of-type(3) li:nth-of-type(2) {
 
 .pagina1 summary:hover {
   background-color: var(--donker2);
+  transition: .5s;
 }
 
 .pagina1 summary:active {
@@ -294,7 +298,10 @@ section:nth-of-type(3) li:nth-of-type(2) {
 }
 
 .pagina1 summary:focus {
-  outline-offset: 10em red;
+  outline-offset: .5em;
+  outline-color: black;
+  outline-style: solid;
+  outline-width: 2px;
 }
 /* INFO */
 
@@ -447,18 +454,15 @@ p:nth-of-type(7), p:nth-of-type(8), p:nth-of-type(9){
   justify-content: center;
 }
 
-.pagina2 section:nth-of-type(3) p{
-  display: flex;
-  top: 10px;
-}
-
-.lasers{
+/*.lasers{
   display: flex;
   justify-content: left;
 }
 
 input[type=checkbox]:hover{
-  opacity: 1;
+  color: white;
+  background-color: var(--donker2);
+  transition: .5s;
 }
 
 input[type=checkbox]:active {
@@ -467,12 +471,15 @@ input[type=checkbox]:active {
 }
 
 input[type=ckexbox]:focus {
-  outline-offset: 10em red;
+  outline-offset: .5em;
+  outline-color: black;
+  outline-style: solid;
+  outline-width: 2px;
 }
 
 input[type=checkbox]:checked{
   background-color: var(--oranje1);
-}
+}*/
 
 .pagina2 section:nth-of-type(3) a{
   margin-left: 10px;
@@ -484,7 +491,7 @@ input[type=text]{
   width: 100%;
   padding: 12px 20px 12px 12px;
   border: none;
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 input[type=text]:hover, input[type=text]:active, input[type=text]:focus{
@@ -493,11 +500,18 @@ input[type=text]:hover, input[type=text]:active, input[type=text]:focus{
 
 input[type=text]:hover{
   background-color: var(--donker2);
-  transform: 1s;
+  transition: .5s;
 }
 
 input[type=text]:active {
   background-color: var(--donker3);
+}
+
+input[type=text]:focus{
+  outline-offset: .5em;
+  outline-color: black;
+  outline-style: solid;
+  outline-width: 2px;
 }
 
 input[type=email]{
@@ -506,12 +520,13 @@ input[type=email]{
   width: 100%;
   padding: 12px 20px 12px 12px;
   border: none;
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 input[type=email]:hover{
   color: black;
-  background-color: var(d--donker2);
+  background-color: var(--donker2);
+  transition: .5s;
 }
 
 input[type=email]:active {
@@ -520,30 +535,10 @@ input[type=email]:active {
 }
 
 input[type=email]:focus {
-  outline-offset: 10em red;
-}
-
-input[type=submit]{
-  font-family: var(--font2);
-  background-color: var(--donker);
-  color: white;
-  width: 100%;
-  padding: 12px 20px 12px 12px;;
-  border: none;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-input[type=submit]:hover{
-  background-color: var(d--donker2);
-}
-
-input[type=submit]:active {
-  background-color: var(--donker3);
-}
-
-input[type=submit]:focus {
-  outline-offset: 10em red;
+  outline-offset: .5em;
+  outline-color: black;
+  outline-style: solid;
+  outline-width: 2px;
 }
 
 .stadlabel{
@@ -556,10 +551,12 @@ input[type=submit]:focus {
   font-family: var(--font1);
   padding: 1em;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .stadopties select:hover{
   color: var(--donker2);
+  transition: .5s;
 }
 
 .stadopties select:active {
@@ -567,13 +564,41 @@ input[type=submit]:focus {
 }
 
 .stadopties select:focus {
-  outline-offset: 10em red;
+  outline-offset: .5em;
+  outline-color: black;
+  outline-style: solid;
+  outline-width: 2px;
 }
 
 .pagina2 section:nth-of-type(3) input:invalid {
   border: 5px dashed red;
 }
 
+input[type=submit]{
+  font-family: var(--font2);
+  background-color: var(--donker);
+  color: white;
+  width: 100%;
+  padding: 12px 20px 12px 12px;;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+input[type=submit]:hover{
+  background-color: var(d--donker2);
+}
+
+input[type=submit]:active {
+  background-color: var(--donker3);
+}
+
+input[type=submit]:focus {
+  outline-offset: .5em;
+  outline-color: white;
+  outline-style: solid;
+  outline-width: 2px;
+}
 
 
 
