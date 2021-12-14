@@ -259,7 +259,7 @@ met uitgeklapte tekst:
 <img src="images/home2.png" width="375px" alt="homepage met uitgeklapte tekst">
 
 contact pagina:
-<img src="images/contact1.1.png" width="375px" alt="contact pagina">
+<img src="images/contact1.2.png" width="375px" alt="contact pagina">
 
 met uitgeklapte tekst:
 <img src="images/contact2.2.png" width="375px" alt="contactpagina met error state">
