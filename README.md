@@ -216,15 +216,21 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+| student 1                                                                               | student 2          | student 3    | student 4        |
+| ---                                                                                     | ---                | ---          | ---              |
+|border input invalid lukt niet                                                           | en dit             | en ik dit    | en dan ik dat    |
+|.focus lukt niet| dit als er tijd is                                                     | nog een punt | dit wil ik zeker |
+|class of id (voor de zekerheid)                                                          | ...                | ...          | ...              |
+|Hoe font stack doen met een font van dafont en Google fonts| ...                         | ...          | ...              |
+|Footer onderste img lukt me niet te verplaatsen na te linken aan social media            | ...                | ...          | ...              |
+|Zijn de states bijv hover en visited (privacy issues) relevant voor alleen mobiele versie| ...                | ...          | ...              |
 
 ### Verslag van meeting
 
+- States alleen hover focus an active doen
+- iPhone se formaat doen
+- Logos onderaan in footer, moet in ul dan immer flexbox flex direction row 
+- Font stack: 1 font face per ding, alleen naam is goed geen aanhalingshaakjes. ../assests/whoody/whoodyttf, voor poppins bij links op Google fonts in de head zetten in html in css fontfamily:poppins hoeft niet font face
 
 </details>
 
