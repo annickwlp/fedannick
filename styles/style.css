@@ -1,47 +1,40 @@
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
-}
-
-*, html {
-	padding: 0px;
+  padding: 0px;
 	margin: 0px;
-	box-sizing: border-box;
 }
-
 
 :root{
-  --link-kleur: #F27507;
+  --font1: poppins, sans-serif;
+  --font2: whoody, sans-serif;
+  --oranje1: #F27507;
+}
 
+html{
+  font-family: var(--font1);
 }
 
 @font-face {
   font-family: "Whoody";
-  src: url("../assests/whoody/whoodyttf");
+  src: url("../assets/whoody/whoody.ttf");
 }
-
 
 /* ALGEMEEN */
-h1{
-  font-family: whoody;
-}
-
-h2{
-  font-family: whoody;
+h1,h2 {
+  font-family: var(--font2);
 }
 
 h4{
-  font-family: poppins;
   font-weight: 600;
 }
 
 p{
-  font-family: poppins;
   font-weight: 400;
 }
 
 summary {
-  font-family: poppins;
+  font-family: var(--font2);
   font-weight: 400;
 }
 /* ALGEMEEN */
@@ -53,7 +46,7 @@ summary {
 /* HEADER */
 /* navigatie*/
 nav{
-  font-family: whoody;
+  font-family: var(--font2);
   position: absolute;
   padding: 20px;
   top: -5px;
@@ -69,29 +62,26 @@ nav a{
 }
 
 nav a:hover {
-  background-color: #F27507;
+  background-color: var(--oranje1);
   color: black;
   padding: 5px;
 }
 
 nav a:active {
-  background-color: #F27507;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 5px;
 }
 
 nav a:focus {
-  background-color: #F27507;
+  background-color: var(--oranje1);
   color: black;
   padding: 5px;
-  border: none;
 }
 
 /* hamburger menu */
 nav button {
-  width: 5em;
-  height: 2.5em;
-  background-color: var(--background-primary);
+  background-color: transparent;
   border: none;
   color: white;
   position: relative;
@@ -101,7 +91,6 @@ nav button {
 /* hamburger icoontje */
 nav button::before {
   content: "\2630";
-  margin-right: 1.6em;
   font-size: 2em;
 }
   
@@ -159,7 +148,7 @@ section img:nth-of-type(2){
   display: block;
 }
 
-section:nth-of-type(1),
+.pagina1 section:nth-of-type(1),
 section:nth-of-type(2) {
   position: absolute;
   top: 0;
@@ -168,15 +157,18 @@ section:nth-of-type(2) {
 }
 
 /* logo */
-section:nth-of-type(2) img{
+.pagina1 section:nth-of-type(2) img{
   position: absolute;
   width: 22%;
   top: 50px;
   left: 130px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
 }
 
 /* titel */
-section:nth-of-type(2) h1{
+.pagina1 section:nth-of-type(2) h1{
   position: absolute;
   color: white;
   font-size: 49px;
@@ -186,31 +178,29 @@ section:nth-of-type(2) h1{
 }
 
 /* btn */
-section:nth-of-type(2) a {
+.pagina1 section:nth-of-type(2) a {
   position: absolute;
   color: white;
   font-size: 20px;
-  font-family: poppins;
   font-weight: 500;
-  background-color: #F27507;
+  background-color: var(--oranje1);
   border-radius: 40px;
   padding: 10px 40px 10px 40px;
-  text-align: center;
   text-decoration: none;
   top: 320px;
   left: 80px;
 }
 
-section:nth-of-type(2) a:hover {
+.pagina1 section:nth-of-type(2) a:hover {
   background-color: #c15d05;
 }
 
-section:nth-of-type(2) a:active {
+.pagina1 section:nth-of-type(2) a:active {
   background-color: #ed1592;
 }
 
-section:nth-of-type(2) a:focus {
-  border: white;
+.pagina1 section:nth-of-type(2) a:focus {
+  outline-offset: 10em red;
 }
 /* HEADER */
 
@@ -219,49 +209,49 @@ section:nth-of-type(2) a:focus {
 
 
 /* FOTO'S */
-section:nth-of-type(3){
+.pagina1 section:nth-of-type(3){
   position: relative;
   color: white;
-  text-align: center;
+  /* text-align: center;*/
   background-color: #1D1D1D;
   padding: 2em;
   list-style: none;
 }
 
-section:nth-of-type(3) h2{
+.pagina1 section:nth-of-type(3) h2{
   font-size: 30px
 }
 
-section:nth-of-type(3) p{
+.pagina1 section:nth-of-type(3) p{
   position: relative;
   font-size: 15px;
 }
 
-section:nth-of-type(3) ul{
+.pagina1 section:nth-of-type(3) ul{
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
 }
-section:nth-of-type(3) li {
+.pagina1 section:nth-of-type(3) li {
   width: 28%;
 }
 
-section:nth-of-type(3) li:first-of-type,
+.pagina1 section:nth-of-type(3) li:first-of-type,
 section:nth-of-type(3) li:nth-of-type(2) {
   width: 100%;
 }
 
-section:nth-of-type(3) ul img {
+.pagina1 section:nth-of-type(3) ul img {
   border-radius: 10%;
   width: 100%;
 }
-section:nth-of-type(3) ul li:first-of-type img {
+.pagina1 section:nth-of-type(3) ul li:first-of-type img {
   width: 50%;
 }
 
-section:nth-of-type(3) ul li:nth-of-type(2) img{
+.pagina1 section:nth-of-type(3) ul li:nth-of-type(2) img{
   width: 90%;
 }
 /* FOTO'S */
@@ -271,21 +261,20 @@ section:nth-of-type(3) ul li:nth-of-type(2) img{
 
 
 /* INFO */
-section:nth-of-type(4) {
+.pagina1 section:nth-of-type(4) {
   position: relative;
   color: black;
   text-align: center;
-  background-color: #F27507;
+  background-color: var(--oranje1);
   padding: 20px;
 }
 
 /* summary voor allebei (ook over ons) */
-summary{
+.pagina1 summary{
   border-radius: 5px;
   background-color: #1D1D1D;
   color: white;
   list-style: none;
-  font-family: whoody;
   padding: 10px;
   width: 50%;
   position: relative;
@@ -295,16 +284,16 @@ summary{
   margin-bottom: 1em;
 }
 
-summary:hover {
+.pagina1 summary:hover {
   background-color: #404040;
 }
 
-summary:active {
+.pagina1 summary:active {
   background-color: #333333;
 }
 
-summary:focus {
-  border: white;
+.pagina1 summary:focus {
+  outline-offset: 10em red;
 }
 /* INFO */
 
@@ -313,15 +302,15 @@ summary:focus {
 
 
 /* VERHUUR */
-section:nth-of-type(5) {
+.pagina1 section:nth-of-type(5) {
   position: relative;
   color: black;
-  background-color: #F27507;
+  background-color: var(--oranje1);
   text-align: center;
   padding: 70px 20px 0 20px;
 }
 
-section:nth-of-type(5) img{
+.pagina1 section:nth-of-type(5) img{
   border-radius: 10%;
   position: relative;
   width: 90%;
@@ -347,11 +336,11 @@ section:nth-of-type(5) img{
 
 
 /* OVER ONS */
-section:nth-of-type(6){
+.pagina1 section:nth-of-type(6){
   position: relative;
   color: black;
   text-align: center;
-  background-color: #F27507;
+  background-color: var(--oranje1);
   padding: 70px 20px 40px 20px;
 }
 /* OVER ONS */
@@ -414,6 +403,7 @@ p:nth-of-type(7), p:nth-of-type(8), p:nth-of-type(9){
 /* vraag */
 .pagina2 section:nth-of-type(2) p:nth-of-type(10){
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 /* btn */
@@ -421,27 +411,28 @@ p:nth-of-type(7), p:nth-of-type(8), p:nth-of-type(9){
   padding: 10px 40px 10px 40px;
   text-align: center;
   text-decoration: none;
-  margin-top: 240px;
-  margin-left: -10px;
+  color: white;
+  margin-left: 10px;
   font-size: 15px;
+  background-color: var(--oranje1);
+  border-radius: 40px;
+  padding: 10px 40px 10px 40px;
 }
 
 /* i-frame */
 .maps{
-	width: 300px;
+	width: 100%;
 	height: 200px;
   border: 0;
-  margin-top: 100px;
+  margin-top: 40px;
   border-radius: 10px;
-  margin-left: 5px;;
 }
 
 /* formulier */
 .pagina2 section:nth-of-type(3){
   position: relative;
   color: black;
-  text-align: center;
-  background-color: #F27507;
+  background-color: var(--oranje1);
   padding: 2em;
   list-style: none;
 }
@@ -455,40 +446,56 @@ p:nth-of-type(7), p:nth-of-type(8), p:nth-of-type(9){
   top: 10px;
 }
 
-#lasers{
-  margin-left: -190px;
+.lasers{
+  display: flex;
+  justify-content: left;
+}
+
+input[type=checkbox]:hover{
+  opacity: 1;
+}
+
+input[type=checkbox]:active {
+  background-color: #333333;
+  background-color: var(--oranje1);
+}
+
+input[type=ckexbox]:focus {
+  outline-offset: 10em red;
+}
+
+input[type=checkbox]:checked{
+  background-color: var(--oranje1);
 }
 
 .pagina2 section:nth-of-type(3) a{
-  font-family: Poppins;
   margin-left: 10px;
 }
 
 input[type=text]{
-  font-family: Poppins;
-  color: grey;
+  font-family: var(--font1);
+  color: white;
   width: 100%;
   padding: 12px 20px 12px 12px;
   border: none;
   margin-top: 10px;
 }
 
+input[type=text]:hover, input[type=text]:active, input[type=text]:focus{
+  color: white;
+}
+
 input[type=text]:hover{
-  color: black;
   background-color: #404040;
+  transform: 1s;
 }
 
 input[type=text]:active {
   background-color: #333333;
-  color: white;
-}
-
-input[type=text]:focus {
-  border: white;
 }
 
 input[type=email]{
-  font-family: Poppins;
+  font-family: var(--font1);
   color: grey;
   width: 100%;
   padding: 12px 20px 12px 12px;
@@ -507,11 +514,11 @@ input[type=email]:active {
 }
 
 input[type=email]:focus {
-  border: white;
+  outline-offset: 10em red;
 }
 
 input[type=submit]{
-  font-family: whoody;
+  font-family: var(--font2);
   background-color: #1D1D1D;
   color: white;
   width: 100%;
@@ -527,30 +534,40 @@ input[type=submit]:hover{
 
 input[type=submit]:active {
   background-color: #333333;
-  color: #F27507;
+  background-color: var(--oranje1);
 }
 
 input[type=submit]:focus {
-  border: white;
+  outline-offset: 10em red;
 }
 
-.stad1{
-  font-family: Poppins;
-  display: flex;
-  margin-top: 10px;
-}
-
-.stad2{
-  font-family: Poppins;
-  padding: 0px 0px 10px 10px;
+.stadlabel{
   border: none;
   display: flex;
-  margin-left: -10px;
+  width: 115px;
+}
+
+.stadopties select{
+  font-family: var(--font1);
+  padding: 1em;
+  width: 100%;
+}
+
+.stadopties select:hover{
+  color: #404040;
+}
+
+.stadopties select:active {
+  background-color: #333333;
+  background-color: var(--oranje1);
+}
+
+.stadopties select:focus {
+  outline-offset: 10em red;
 }
 
 .pagina2 section:nth-of-type(3) input:invalid {
-  border-color: rgb(230, 86, 86);
-  border-style:10px solid rgb(230, 86, 86);
+  border: 5px dashed red;
 }
 
 
@@ -569,7 +586,7 @@ footer ul a{
 
 /* algemeen */
 footer{
-  font-family: whoody;
+  font-family: var(--font2);
   color: white;
   text-decoration: none;
   background-color: #151515;
@@ -578,7 +595,7 @@ footer{
 }
 
 footer h3{
-  color: #F27507;
+  color: var(--oranje1);
   font-size: 25px;
   margin-left: 20px;
   margin-top: 20px;
@@ -601,9 +618,9 @@ footer p{
 
 /* (meteen ook voor contact (stuur ons een bericht)) */
 footer a{
-  color: #F27507;
+  color: var(--oranje1);
   text-decoration: none;
-  font-family: poppins;
+  font-family: var(--font1);
   margin-left: 20px;
 }
 
@@ -633,6 +650,7 @@ footer > a:nth-of-type(5){
 
 footer p:first-of-type{
   margin-top: -10px;
+  font-family: var(--font1);
 }
 
 footer img:first-of-type{
@@ -648,16 +666,19 @@ footer h3:nth-of-type(3){
 /* info (tekst) */
 .tekstdiv1{
   margin-top: -90px;
+  font-family: var(--font1);
 }
 
 .tekstdiv1punt2{
   margin-top: -70px;
+  font-family: var(--font1);
 }
 
 .tekstdiv2{
   margin-top: -20px;
   margin-left: 40px;
   margin-bottom: 10px;
+  font-family: var(--font1);
 }
 
 /* logo */
