@@ -51,10 +51,6 @@ summary {
 
 
 /* HEADER */
-#head {
-  position: relative;
-}
-
 /* navigatie*/
 nav{
   font-family: whoody;
@@ -84,9 +80,6 @@ nav a:active {
   padding: 5px;
 }
 
-a:focus {
-  outline: none;
-}
 nav a:focus {
   background-color: #F27507;
   color: black;
@@ -94,41 +87,34 @@ nav a:focus {
   border: none;
 }
 
-/* hamburger menu*/
+/* hamburger menu */
 nav button {
   width: 5em;
   height: 2.5em;
-  
-  
-  background-color: #1D1D1D;
+  background-color: var(--background-primary);
   border: none;
-  border-radius: .25em;
   color: white;
   position: relative;
   z-index: 100;
-  }
+}
 
-/* hamburger icoon */
+/* hamburger icoontje */
 nav button::before {
   content: "\2630";
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 12em;
-  margin-top: -1em;
+  margin-right: 1.6em;
   font-size: 2em;
-  }
+}
   
-/*rood kruisje*/
+/* kruis icoontje */
 nav.toonMenu button::before {
 content: "\274C";
 }
   
-/*lijstje*/
+/* nav tekst zelf */
 nav ul {
 margin: 0;
 padding: 4em 0 0;
-background-color: black;
+background-color:  #1D1D1D;
 list-style: none;
 position: fixed;
 text-align: center;
@@ -142,12 +128,10 @@ nav.toonMenu ul {
 transform: translatex(0);
 }
   
-/*linkje in lijst*/
+/* link in lijst */
 nav li {
 margin: 2em;
 font-size: 20px;
-font-weight: bold;
-font-family: var(--font-primary);
 }
 
 
@@ -354,7 +338,7 @@ section:nth-of-type(5) img{
 
 .naastelkaar img:nth-of-type(2){
   margin-left: 60px;
-  top: 2px;
+  top: 0px;
 }
 /* VERHUUR */
 
@@ -437,8 +421,8 @@ p:nth-of-type(7), p:nth-of-type(8), p:nth-of-type(9){
   padding: 10px 40px 10px 40px;
   text-align: center;
   text-decoration: none;
-  left: 38px;
-  margin-top: 260px;
+  margin-top: 240px;
+  margin-left: -10px;
   font-size: 15px;
 }
 
@@ -449,6 +433,7 @@ p:nth-of-type(7), p:nth-of-type(8), p:nth-of-type(9){
   border: 0;
   margin-top: 100px;
   border-radius: 10px;
+  margin-left: 5px;;
 }
 
 /* formulier */
@@ -461,18 +446,31 @@ p:nth-of-type(7), p:nth-of-type(8), p:nth-of-type(9){
   list-style: none;
 }
 
-input[type=text]{
-  font-family: Poppins;
-  color: grey;
-  width: 100%;
-  padding: 12px 20px 12px 12px;;
-  border: none;
-  margin-top: 10px;
+.pagina2 section:nth-of-type(3) h2{
+  margin-bottom: 10px;
 }
 
 .pagina2 section:nth-of-type(3) p{
   display: flex;
   top: 10px;
+}
+
+#lasers{
+  margin-left: -190px;
+}
+
+.pagina2 section:nth-of-type(3) a{
+  font-family: Poppins;
+  margin-left: 10px;
+}
+
+input[type=text]{
+  font-family: Poppins;
+  color: grey;
+  width: 100%;
+  padding: 12px 20px 12px 12px;
+  border: none;
+  margin-top: 10px;
 }
 
 input[type=text]:hover{
@@ -493,8 +491,7 @@ input[type=email]{
   font-family: Poppins;
   color: grey;
   width: 100%;
-  padding: 12px 20px 12px 12px;;
-  border: none;
+  padding: 12px 20px 12px 12px;
   border: none;
   margin-top: 10px;
 }
@@ -535,6 +532,20 @@ input[type=submit]:active {
 
 input[type=submit]:focus {
   border: white;
+}
+
+.stad1{
+  font-family: Poppins;
+  display: flex;
+  margin-top: 10px;
+}
+
+.stad2{
+  font-family: Poppins;
+  padding: 0px 0px 10px 10px;
+  border: none;
+  display: flex;
+  margin-left: -10px;
 }
 
 .pagina2 section:nth-of-type(3) input:invalid {
@@ -605,37 +616,33 @@ footer img{
 /* navigeren */
 footer h3:first-of-type{
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
 }
 
+footer ul:first-of-type{
+  display: flex;
+  flex-direction: column;
+}
+
 /* contact */
-footer h3:nth-of-type(2){
-  margin-top: 10px;
+footer > a:nth-of-type(5){
+  top: -5px;
 }
 
 footer p:first-of-type{
-  margin-bottom: -30px;
+  margin-top: -10px;
 }
 
 footer img:first-of-type{
-  margin-top: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /* info */
 footer h3:nth-of-type(3){
   position: relative;
-}
-
-/* info (icoontjes) */
-.imgdiv1{
-  margin-top: -20px;
-}
-
-.imgdiv2{
-  margin-top: -30px;
+  margin-bottom: 10px;
 }
 
 /* info (tekst) */
@@ -665,7 +672,7 @@ footer ul{
   list-style: none;
   display: flex;
   justify-content: center;
-  margin-top: -20px;
+  margin-right: 60px;
 }
 
 footer ul:nth-of-type(2) img{

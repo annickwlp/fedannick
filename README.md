@@ -178,16 +178,25 @@ Eerst: <img src="images/spasmesslecht.jpg" width="375px" alt="spasmes waarbij de
 Nu: <img src="images/spasmesgoed.png" width="375px" alt="spasmes waarbij de form beter is">
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Overig zicht
+- Diabetes is gewoon helemaal prima .
+- Zicht bij het niet kunnen zien van het rondje in het midden van je oog is ook prima.
+- P tekst is niet leesbaar met blur.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Ik zou de font size van de p tekstjes groter moeten maken.
 
+Eerst: <img src="images/peerst.png" width="375px" alt="spasmes waarbij de form slecht was">
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Nu: 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Motoriek
+Een persoon die 2 vingers aan elkaar heeft kan de website eigenlijk ook prima gebruiken.
+
+<img src="images/motoriek.jpg" width="375px" alt="persoon waarvan 2 vingers aan elkaar zitten bestuurd mijn website.">
+
+#### Concentratie
+En ook als een gebruiker weinig concentratie heeft is de website goed te bedienen! Ik heb hier helaas geen beelden van.
+
 
 </details>
 
@@ -248,8 +257,11 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. Mijn eerder gemaakt programmeer werk (voor dingen zoals een form en een ifram ter inspiratie hoe het ookalweer moest).
+2. Voor hamburger menu de oefeningen van de HvA van Sanne 't Hooft.
+3. <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"> voor het geod gebruik maken van de flexbox.
+4. Alle oefingen van de HvA die Sanne 't Hooft heeft gemaakt voor voorbereiding en hulp bij het programmeren.
+5. Ook voor vorms: <a href="https://www.w3schools.com/html/html_forms.asp"> & <a href="https://www.w3schools.com/css/css_form.asp">
+6. Content van de website: <a href="https://hetfeestvanomejan.nl/">
 
 </details>
